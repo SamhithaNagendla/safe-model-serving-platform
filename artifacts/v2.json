@@ -1,0 +1,1 @@
+{"version":"v2","weights":[1.041923,-0.281774],"bias":-0.247511,"training":{"algorithm":"logistic_regression","samples":3000,"seed":84,"validation_accuracy":0.829}}

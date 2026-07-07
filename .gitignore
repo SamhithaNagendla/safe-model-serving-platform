@@ -20,3 +20,19 @@ htmlcov/
 
 # Local env files
 .env
+
+# Local virtual environment
+.venv/
+venv/
+
+# Python cache and test output
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment files
+.env
+
+# Mac system files
+.DS_Store
