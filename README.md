@@ -24,31 +24,7 @@ logistic-regression training experiments rather than arbitrary hand-entered demo
 
 ## Run
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
 
-# Safe Model Serving Platform
-
-A FastAPI prediction service for champion/challenger deployment, deterministic A/B assignment,
-non-blocking shadow execution, automatic challenger fallback, immediate rollback, delayed labels,
-and persistent per-version operational metrics.
-
-## Production-risk controls demonstrated
-
-- stable assignment through SHA-256 hashing;
-- traffic percentages from 0 to 100%;
-- shadow predictions never determine the primary response;
-- challenger failures fall back to the champion;
-- champion and challenger artifacts are loaded from versioned JSON files;
-- prediction history and labels persist in SQLite across service restarts;
-- metrics report requests, errors, average latency, fallbacks, labeled volume, and accuracy;
-- routing validation prevents unknown model versions.
-
-The included artifact metadata records that both model versions originated from deterministic
-logistic-regression training experiments rather than arbitrary hand-entered demo weights.
-
-## Run
 
 ```bash
 python3 -m venv .venv
