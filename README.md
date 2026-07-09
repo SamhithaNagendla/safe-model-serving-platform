@@ -1,7 +1,3 @@
-samhithanagendla@Mac safe-model-serving-platform % nano README.md
-
-  UW PICO 5.09                                            File: README.md                                               
-
 # Safe Model Serving Platform
 
 A FastAPI prediction service for champion/challenger deployment, deterministic A/B assignment,
